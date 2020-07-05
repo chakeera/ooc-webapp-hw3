@@ -22,7 +22,7 @@ public class DBService {
     public DBService() throws SQLException, ClassNotFoundException {
         this.jdbcDriverStr = "com.mysql.cj.jdbc.Driver";
         this.jdbcURL = "jdbc:mysql://localhost/oochw3webapp?"
-                + "user=root&password=chakeera";
+                + "user=cha&password=chakeera";
         Class.forName(jdbcDriverStr);
         connection = DriverManager.getConnection(jdbcURL);
         statement = connection.createStatement();
