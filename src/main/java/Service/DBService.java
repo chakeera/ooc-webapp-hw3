@@ -20,9 +20,9 @@ public class DBService {
     private PreparedStatement preparedStatement;
 
     public DBService() throws SQLException, ClassNotFoundException {
-        this.jdbcDriverStr = "com.mysql.jdbc.Driver";
+        this.jdbcDriverStr = "com.mysql.cj.jdbc.Driver";
         this.jdbcURL = "jdbc:mysql://localhost/oochw3webapp?"
-                + "user=cha&password=chakeera";
+                + "user=root&password=chakeera";
         Class.forName(jdbcDriverStr);
         connection = DriverManager.getConnection(jdbcURL);
         statement = connection.createStatement();
@@ -30,18 +30,18 @@ public class DBService {
     }
 
     public void createDatabase() throws SQLException {
-        statement.execute("create table if not exists user_table (username varchar(255) not null , password varchar(255) not null, firstname varchar(255), lastname varchar(200), DOB date )");
-        resultSet = statement.executeQuery("select * from webapp_ooc.user_table;");
+        statement.execute("create table if not exists user_table(username varchar(255) not null , password varchar(255) not null, firstname varchar(255), lastname varchar(200), DOB date)");
+        resultSet = statement.executeQuery("select * from oochw3webapp.user_table;");
         if (!resultSet.next()){
             String hashed = BCrypt.hashpw("admin", BCrypt.gensalt());
-            preparedStatement = connection.prepareStatement("insert into webapp_ooc.user_table values ('admin','"+ hashed +"','admin','admin',TO_DATE('5/7/2020', 'DD/MM/YYYY'))");
+            preparedStatement = connection.prepareStatement("insert into oochw3webapp.user_table values ('admin','"+ hashed +"','admin','admin','2020/07/05')");
             preparedStatement.execute();
         }
     }
 
     public void readData() throws Exception {
         try {
-            resultSet = statement.executeQuery("select * from webapp_ooc.user_table;");
+            resultSet = statement.executeQuery("select * from oochw3webapp.user_table;");
             getResultSet(resultSet);
         } finally {
             close();

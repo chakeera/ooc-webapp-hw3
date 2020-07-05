@@ -1,3 +1,4 @@
+import Service.DBService;
 import Service.SecurityService;
 import Servlet.ServletRouter;
 import org.apache.catalina.Context;
@@ -16,6 +17,8 @@ public class Webapp {
         tomcat.setPort(8082);
 
         //TODO: declare read db here
+        DBService dao = new DBService();
+        dao.readData();
 
         SecurityService securityService = new SecurityService();
         ServletRouter servletRouter = new ServletRouter();

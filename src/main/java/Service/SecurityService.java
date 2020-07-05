@@ -16,7 +16,6 @@ public class SecurityService {
     public boolean isAuthorized(HttpServletRequest request) throws SQLException {
         String username = (String) request.getSession()
                 .getAttribute("username");
-        // do checking
         return (username != null && databaseService.containUser(username));
     }
 
