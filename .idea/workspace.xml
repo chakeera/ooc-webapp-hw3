@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ccf01db-803f-44d8-b404-153c060f4d1e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eG6yek4apNiQIv40s8Gq1YvDZ8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ccf01db-803f-44d8-b404-153c060f4d1e" name="Default Changelist" comment="" />
+      <created>1593935838527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593935838527</updated>
+      <workItem from="1593935841665" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="59" key="SettingsEditor" timestamp="1593935861525">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="221" y="59" key="SettingsEditor/0.23.1440.794@0.23.1440.794" timestamp="1593935861525" />
+    <state x="397" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1593935844391">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="397" y="252" key="com.intellij.ide.util.TipDialog/0.23.1440.794@0.23.1440.794" timestamp="1593935844391" />
+  </component>
+</project>
