@@ -29,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -67,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593935838527</updated>
-      <workItem from="1593935841665" duration="5509000" />
+      <workItem from="1593935841665" duration="6508000" />
     </task>
     <servers />
   </component>
@@ -79,6 +82,10 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="320" y="85" key="#Project_Structure/0.23.1440.794@0.23.1440.794" timestamp="1593939842820" />
+    <state x="452" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593950692251">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="452" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.794@0.23.1440.794" timestamp="1593950692251" />
     <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1593949956830">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
@@ -95,9 +102,9 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="221" y="59" key="SettingsEditor/0.23.1440.794@0.23.1440.794" timestamp="1593935861525" />
-    <state x="397" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1593935844391">
+    <state x="397" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1593959913829">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state x="397" y="252" key="com.intellij.ide.util.TipDialog/0.23.1440.794@0.23.1440.794" timestamp="1593935844391" />
+    <state x="397" y="252" key="com.intellij.ide.util.TipDialog/0.23.1440.794@0.23.1440.794" timestamp="1593959913829" />
   </component>
 </project>
