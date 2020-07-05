@@ -7,6 +7,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,7 +47,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -37,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593935838527</updated>
-      <workItem from="1593935841665" duration="20000" />
+      <workItem from="1593935841665" duration="5509000" />
     </task>
     <servers />
   </component>
@@ -45,6 +75,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="85" key="#Project_Structure" timestamp="1593939842820">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="320" y="85" key="#Project_Structure/0.23.1440.794@0.23.1440.794" timestamp="1593939842820" />
+    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1593949956830">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="533" y="136" key="#com.intellij.ide.util.MemberChooser/0.23.1440.794@0.23.1440.794" timestamp="1593949956830" />
+    <state x="486" y="286" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593940652715">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="486" y="286" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.794@0.23.1440.794" timestamp="1593940652715" />
+    <state x="458" y="174" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1593941800474">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="458" y="174" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.794@0.23.1440.794" timestamp="1593941800474" />
     <state x="221" y="59" key="SettingsEditor" timestamp="1593935861525">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
