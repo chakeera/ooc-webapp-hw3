@@ -6,7 +6,6 @@ import Service.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -43,7 +42,7 @@ public class EditServlet extends AbstractRoutableHttpServlet{
                 req.setAttribute("username", user.getUsername());
                 req.setAttribute("first_name", user.getFirstName());
                 req.setAttribute("last_name", user.getLastName());
-                req.setAttribute("DOB",user.getDob());
+                req.setAttribute("dob",user.getDob());
 
             } catch (SQLException e) {
                 e.printStackTrace();
@@ -105,7 +104,10 @@ public class EditServlet extends AbstractRoutableHttpServlet{
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+        }else if(req.getParameter("back")!= null){
+            resp.sendRedirect("/");
         }
+
         try {
             User user = databaseService.getUser(username);
             String firstName = user.getFirstName();

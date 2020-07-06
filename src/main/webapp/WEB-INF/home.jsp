@@ -1,23 +1,36 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<head>
+    <style>
+        body {
+            background-image: url('https://image.freepik.com/free-vector/english-primrose-flower-leaves-small-petal-seamless-random-repeat-vector-pattern-background_58717-198.jpg');
+        }
+    </style>
+    <title>Edit page</title>
+</head>
+<div align="center">
 <body>
+<h1> Home Page </h1>
 <h2>Welcome, ${user.getUsername()}</h2>
 <h2>first name : ${user.getFirstName()}</h2>
 <h2>last name : ${user.getLastName()}</h2>
 <h2>Date of Birth : ${user.getDob()}</h2>
-<br/>
-<form method="post">
-    <input type="submit" name="logout" value="Log out"/>
-</form>
-<p>${adding_error}</p>
+
+<p>Register new user here </p>
 <form method="post">
     <input type="text" name="adding_username" placeholder="username" required /><br>
     <input type="password" name="adding_password" placeholder="password" required/><br>
-    <input type="password" name="confirm_password" placeholder="confirm password" required>
+    <input type="password" name="confirm_password" placeholder="confirm password" required><br>
     <input type="submit" name="add_user" value="Add user" required/>
 </form>
+    <p>${adding_error}</p>
+
 <p>${removing_error}</p>
+
+
 <table border="2">
-    <tr><td>Username List</td></tr>
+    <tr><th>Users</th><th>Actions</th></tr>
     <c:forEach items="${userList}" var="usr">
         <tbody style="vertical-align: center">
         <tr>
@@ -30,7 +43,7 @@
                         <c:when test="${usr!=username}">
                             <input type="submit" name="removing_user" value="remove" onclick="{return confirm('Are you sure you want to remove this user?')}"/>
                         </c:when>
-                        <c:otherwise> Removing not allowed here </c:otherwise>
+                        <c:otherwise> Sorry, cant remove yourself <br> </c:otherwise>
                     </c:choose>
                     <input type="submit" name="do_edit" value="edit" />
                 </form>
@@ -40,5 +53,14 @@
         </tbody>
     </c:forEach>
 </table>
+
+    <br>
+
+    <form method="post">
+        <input type="submit" name="logout" value="Log out"/>
+    </form>
+
 </body>
+</div>
 </html>
+

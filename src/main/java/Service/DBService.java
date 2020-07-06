@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class DBService {
 
     enum user_table {
-        username, password, firstname, lastname,dob;
+        username, password, firstname, lastname, dob;
     }
 
     private final String jdbcDriverStr;
@@ -151,6 +151,6 @@ public class DBService {
     }
 
     public void updateDob(String newDob, String username)throws SQLException{
-        statement.execute("update user_table set dob = '" + newDob+ "' where username = '" + username+ "';");
+        statement.execute("update user_table set DOB = '" + newDob+ "' where username = '" + username+ "';");
     }
 }

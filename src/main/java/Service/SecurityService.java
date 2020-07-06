@@ -29,8 +29,5 @@ public class SecurityService {
         }
     }
 
-    public void logout(HttpServletRequest request) {
-        request.getSession().invalidate();
-    }
 
 }

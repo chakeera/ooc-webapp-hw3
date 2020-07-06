@@ -14,9 +14,8 @@ public class Webapp {
         File docBase = new File("src/main/webapp/");
         docBase.mkdirs();
         Tomcat tomcat = new Tomcat();
-        tomcat.setPort(8082);
+        tomcat.setPort(80);
 
-        //TODO: declare read db here
         DBService dao = new DBService();
         dao.readData();
 

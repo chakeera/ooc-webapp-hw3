@@ -1,6 +1,5 @@
 package Service;
 
-import Service.DBService;
 import java.sql.SQLException;
 
 public class User{
@@ -17,13 +16,9 @@ public class User{
         this.databaseService = new DBService();
     }
 
-    public String getDob() {
-        return dob;
-    }
+    public String getDob() { return dob; }
 
-    public void setDob(String dob) {
-        this.dob = dob;
-    }
+    public void setDob(String dob) { this.dob = dob; }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
@@ -37,9 +32,7 @@ public class User{
         return firstName;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
+    public String getLastName() { return lastName; }
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
