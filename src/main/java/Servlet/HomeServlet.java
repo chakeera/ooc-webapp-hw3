@@ -48,7 +48,6 @@ public class HomeServlet  extends AbstractRoutableHttpServlet{
             e.printStackTrace();
         }
         if (authorized) {
-            // do MVC in here
             String username = (String) request.getSession().getAttribute("username");
             try {
                 User user = databaseService.getUser(username);
@@ -58,7 +57,6 @@ public class HomeServlet  extends AbstractRoutableHttpServlet{
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             }
-//            request.setAttribute("username", username);
             try {
                 refreshTable(request,response);
             } catch (SQLException e) {
